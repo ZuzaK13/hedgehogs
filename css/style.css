@@ -115,11 +115,24 @@ a :hover{
 }
 
 .gallery{
+    padding-top: 60px;
+}
+
+.gallery h2{
+display: flex;
+justify-content: center;
+font-size: 40px;
+
+}
+
+.galleryphotos{
     display: flex;
 flex-direction: row;
+justify-content: center;
+padding-top: 30px;
 }
-.gallery img{
-width: 200px;
+.galleryphotos img{
+width: 310px;
 
 }
 
@@ -138,3 +151,28 @@ flex-direction: row;
 display: flex;
 flex-direction: row;
 }
+
+
+
+
+
+
+
+
+
+
+
+  .product {
+        position: relative;
+        text-align: center;
+        color: white;
+
+    }
+
+    .product img {
+        mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    }
+
+    .overlay {
+        background-color: black;
+    }
